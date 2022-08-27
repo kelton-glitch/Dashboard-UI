@@ -61,6 +61,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -72,6 +74,7 @@
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -86,7 +89,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(255, 699);
+            this.panel1.Size = new System.Drawing.Size(248, 699);
             this.panel1.TabIndex = 0;
             // 
             // btnSettings
@@ -98,7 +101,7 @@
             this.btnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnSettings.Location = new System.Drawing.Point(0, 657);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(255, 42);
+            this.btnSettings.Size = new System.Drawing.Size(248, 42);
             this.btnSettings.TabIndex = 1;
             this.btnSettings.Text = "Settings";
             this.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -115,7 +118,7 @@
             this.btnContactUs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnContactUs.Location = new System.Drawing.Point(0, 287);
             this.btnContactUs.Name = "btnContactUs";
-            this.btnContactUs.Size = new System.Drawing.Size(255, 42);
+            this.btnContactUs.Size = new System.Drawing.Size(248, 42);
             this.btnContactUs.TabIndex = 1;
             this.btnContactUs.Text = "Contact Us";
             this.btnContactUs.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -132,7 +135,7 @@
             this.btnCalendar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnCalendar.Location = new System.Drawing.Point(0, 245);
             this.btnCalendar.Name = "btnCalendar";
-            this.btnCalendar.Size = new System.Drawing.Size(255, 42);
+            this.btnCalendar.Size = new System.Drawing.Size(248, 42);
             this.btnCalendar.TabIndex = 1;
             this.btnCalendar.Text = "Calendar";
             this.btnCalendar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -149,7 +152,7 @@
             this.btnAnalytics.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnAnalytics.Location = new System.Drawing.Point(0, 203);
             this.btnAnalytics.Name = "btnAnalytics";
-            this.btnAnalytics.Size = new System.Drawing.Size(255, 42);
+            this.btnAnalytics.Size = new System.Drawing.Size(248, 42);
             this.btnAnalytics.TabIndex = 1;
             this.btnAnalytics.Text = "Analytics";
             this.btnAnalytics.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -166,7 +169,7 @@
             this.btnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.btnDashboard.Location = new System.Drawing.Point(0, 161);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(255, 42);
+            this.btnDashboard.Size = new System.Drawing.Size(248, 42);
             this.btnDashboard.TabIndex = 1;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -183,7 +186,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(255, 161);
+            this.panel2.Size = new System.Drawing.Size(248, 161);
             this.panel2.TabIndex = 0;
             // 
             // pnlNav
@@ -255,7 +258,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1217, 22);
+            this.button1.Location = new System.Drawing.Point(1210, 14);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(25, 25);
             this.button1.TabIndex = 3;
@@ -379,7 +382,7 @@
             this.panel5.Controls.Add(this.label10);
             this.panel5.Location = new System.Drawing.Point(299, 245);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(321, 442);
+            this.panel5.Size = new System.Drawing.Size(309, 442);
             this.panel5.TabIndex = 4;
             // 
             // circularProgressBar1
@@ -431,7 +434,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label10.Location = new System.Drawing.Point(18, 300);
+            this.label10.Location = new System.Drawing.Point(18, 284);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(479, 23);
             this.label10.TabIndex = 0;
@@ -452,7 +455,7 @@
             // 
             this.pictureBox4.Location = new System.Drawing.Point(23, 51);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(489, 172);
+            this.pictureBox4.Size = new System.Drawing.Size(489, 198);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
@@ -472,7 +475,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
             this.panel7.Controls.Add(this.label15);
-            this.panel7.Location = new System.Drawing.Point(1061, 88);
+            this.panel7.Location = new System.Drawing.Point(1050, 88);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(162, 142);
             this.panel7.TabIndex = 4;
@@ -489,14 +492,36 @@
             this.label15.Text = "Downloads";
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
+            this.panel8.Controls.Add(this.label11);
+            this.panel8.Location = new System.Drawing.Point(682, 529);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(530, 142);
+            this.panel8.TabIndex = 4;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(5, 13);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(128, 31);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Downloads";
+            this.label11.Click += new System.EventHandler(this.label15_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(1262, 699);
+            this.ClientSize = new System.Drawing.Size(1248, 699);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -526,6 +551,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -566,6 +593,8 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label11;
     }
 }
 
