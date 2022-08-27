@@ -485,7 +485,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(5, 13);
+            this.label15.Location = new System.Drawing.Point(16, 13);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(128, 31);
             this.label15.TabIndex = 0;
